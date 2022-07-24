@@ -11,7 +11,7 @@ body {
     align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding-bottom: 60px;
+
     padding-right: 40px;
     
 
@@ -21,7 +21,7 @@ body {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
-    margin-left: 216px;
+    margin-left: 290px;
 }
 
 .links {
@@ -36,23 +36,59 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 16px;
+    margin-right: 220px;
 }
 
+.desc {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.front {
+    padding-top: 40px;
+    max-height: 300px;
+    margin-right: 120px;
+}
 
 .pic-section {
     background-color: #1F2937;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     align-items: space-around;
+    padding-top: 70px;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 70px;
+    gap: 80px;
 }
 
 
 .hero {
-    font-weight: extra-bold;
+    font-weight: bold;
     font-size: 48px;
     color: #F9FAF8;
+    margin-bottom: -10px;
+    flex-wrap: wrap;
+    display: flex;
+    padding-right: 40px;
+
 }
 
 
 
+.caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 10%;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius:10%
+}
